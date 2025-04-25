@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
-import "./global.css";
+// import "./global.css";
+// import "../../app/global.css";
 import { Link } from "expo-router";
 
 export default function Index() {
@@ -8,8 +9,6 @@ export default function Index() {
       <Text className='  text-3xl font-bold text-dark-200'>
         Welcome to my app
       </Text>
-      <Link href='/Onboarding'>onboarding</Link>
-      <Link href='/movies/squidgames'>details</Link>
     </View>
   );
 }
